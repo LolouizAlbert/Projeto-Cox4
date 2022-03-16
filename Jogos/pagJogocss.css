@@ -1,0 +1,389 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Yanone+Kaffeesatz&display=swap');
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+}
+
+p {
+  border-width: 6px;
+   }
+
+header{
+  background-color: #4F5660;
+  height: 70px;
+  padding: 27px;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  }
+h1 {  
+  color:#ffffff; 
+  font-family: 'Yanone Kaffeesatz', sans-serif;;
+  font-size: 100px ;
+  }
+   
+h2{
+  color:#ffffff; 
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 40px ;
+  } 
+
+body{
+ background-color:#2F3136;
+}
+
+.flex{
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+}
+
+.wrapper{
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1440px;
+}
+
+.searchbar{
+  background-color: #c4c4c4;
+  border-radius: 10px 10px 10px 10px;
+  margin-left: 38px;
+}
+
+#barra_pesquisa{
+  background-color: #c4c4c4;
+  border: none;
+  width: 589px;
+  height: 30px;
+  padding: 10px;
+  border-radius: 10px 10px 10px 10px;
+}
+
+#barra_pesquisa::placeholder{
+  font-family: 'Raleway', sans-serif;
+  font-size: 12px;
+}
+
+#barra_pesquisa:focus{
+  outline: none;
+}
+
+.link_cabecalho{
+  font-family: 'Raleway', sans-serif;
+  margin: 0 60px 0;
+}
+.fa-solid{
+  margin-left: 10px;
+}
+
+.links_cabecalho{
+  margin: 0 20px 0;
+  color:#ffffff; 
+  font-family: 'Raleway', sans-serif;
+  font-size: 40px ;
+  font-weight: 600;
+}
+
+#jogoEscolhido{
+  text-align: center;
+  font-weight: 100;
+  margin: 70px 0 72px;
+}
+
+.cola{
+  flex-wrap: wrap;
+}
+
+#Trailereimg{
+  display: flex;
+  justify-content: space-between;
+}
+
+#imgjogo{
+  width: 47%;
+  height: 375px;
+  border: #000000;
+  border-style: solid;
+}
+
+#vidJogo{
+  width: 47%;
+  height: 375px;
+  border: #000000;
+  border-style: solid;
+}
+
+#reviewJogo{
+  width: 50%;
+}
+
+#textoJogo{
+  margin: 0 20px 0;
+  color:#ffffff; 
+  font-family: 'Raleway', sans-serif;
+  margin: 37.2px 25px;
+  text-align: justify;
+}
+
+.referenciaTexto{
+  text-align:center ;
+  margin-left: 25px;
+  color: #1D93B8; 
+  font-family: 'Raleway', sans-serif;
+}
+
+#obsJogo{
+  text-align:center ;
+  margin: 0 auto 10px;
+  font-size: x-large;
+  color: #33D625; 
+  font-family: 'Raleway', sans-serif;
+  width: 100%;
+  width: max-content;
+}
+#obsJogo2{
+  text-align:center ;
+  margin: 0 auto 10px;
+  font-size: x-large;
+  color: #d62525; 
+  font-family: 'Raleway', sans-serif;
+  width: 45%;
+  width: max-content;
+}
+
+.cuJogos{
+  margin-left: 50px;
+  width: 40%;
+  flex-direction: column;
+  justify-content: center;
+}
+@media screen and (max-width:1733px) {
+  #barra_pesquisa {
+      width: 300px;
+  }
+}
+@media screen and (max-width:1680px) {
+  .wrapper {
+      margin: 0 auto;
+      width: 90%;
+      max-width: 1330px;
+  }
+  .link_cabecalho {
+      margin: 0 30px;
+  }
+  .img_carroca {
+      height: 424px;
+      width: 100px;
+  }
+  .c-carousel__slides {
+      margin-top: 34px;
+      height: 500px;
+      width: 100%;
+  }
+  .c-carousel__slide {
+      display: flex;
+      justify-content: center;
+      align-content: flex-end;
+      height: 424px;
+  }
+  #desgracadaMinhavida {
+      margin: 0 auto;
+  }
+  .principal {
+      margin: 2px 20px;
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+      background-image: url("img/Curiosidade\ elden\ ring.jpg");
+  }
+  .principal2 {
+      margin: 2px 20px;
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+      background-image: url("img/guardioes-da-galaxia.jpg");
+  }
+  .principal3 {
+      margin: 2px 20px;
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+      background-image: url("img/ps5exbox.jpg");
+  }
+  .principal4 {
+      margin: 2px 20px;
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+      background-image: url("img/Batman.png");
+  }
+  .lancamentos1 {
+      width: 0 100%;
+  }
+}
+@media screen and (max-width:1510px) {
+  #desgracadaMinhavida {
+      margin: 0 auto;
+  }
+  .img_carroca {
+      height: 400px;
+      width: 85px;
+  }
+  .c-carousel__slides {
+      margin-top: 34px;
+      height: 500px;
+      width: 90%;
+  }
+  .c-carousel__slide {
+      display: flex;
+      justify-content: center;
+      align-content: flex-end;
+      height: 424px;
+  }
+  .principal {
+      margin: 2px 20px;
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+      background-image: url("img/Curiosidade\ elden\ ring.jpg");
+  }
+  .principal2 {
+      margin: 2px 20px;
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+      background-image: url("img/guardioes-da-galaxia.jpg");
+  }
+  .principal3 {
+      margin: 2px 20px;
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+      background-image: url("img/ps5exbox.jpg");
+  }
+  .principal4 {
+      margin: 2px 20px;
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+      background-image: url("img/Batman.png");
+  }
+  .lancamentos1 {
+      width: 0 100%;
+  }
+}
+@media screen and (max-width:1467px) {
+  #primeira_secao {
+      display: flex;
+      justify-content: space-around;
+      margin: 0 auto;
+      width: 75%;
+  }
+  #segunda_secao {
+      display: flex;
+      justify-content: space-around;
+      margin: 0 auto;
+      width: 75%;
+  }
+  .lancamentos1 {
+      width: 0 100%;
+      margin: 0 0;
+  }
+}
+@media screen and (max-width:1174px) {
+  header {
+      width: 100%;
+  }
+  .searchbar {
+      display: none;
+  }
+}
+@media screen and (max-width:1174px) {
+  #primeira_secao {
+      display: flex;
+      justify-content: space-around;
+      margin: 0 auto;
+      width: 75%;
+  }
+  #segunda_secao {
+      display: flex;
+      justify-content: space-around;
+      margin: 0 auto;
+      width: 75%;
+  }
+  .jogosLancamento>a>img {
+      width: 300px;
+      height: 170px;
+      border: #000000;
+      border-style: solid;
+  }
+  .lancamentos1 {
+      width: 0 100%;
+      margin: 0 0;
+  }
+}
+@media screen and (max-width:1114px) {
+  .lancamentos1>a>img {
+      width: 100%;
+      height: 100%;
+      border: #000000;
+      border-style: solid;
+  }
+  .lancamentos, .lancamentos1 {
+      width: 100%;
+  }
+  #primeira_secao {
+      display: flex;
+      justify-content: space-around;
+      margin: 0 auto;
+      width: 75%;
+  }
+  #segunda_secao {
+      display: flex;
+      justify-content: space-around;
+      margin: 0 auto;
+      width: 75%;
+  }
+  .jogosLancamento {
+      width: 100%;
+  }
+  .jogosLancamento>a>img {
+      width: 100%;
+      height: 100%;
+      border: #000000;
+      border-style: solid;
+  }
+}
+@media screen and (max-width:800px) {
+  .link_cabecalho {
+      display: none;
+  }
+  #desgracadaMinhavida {
+      display: none;
+  }
+  #primeira_secao {
+      margin-top: 80px;
+  }
+  .links_pe {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 30px;
+  }
+}
+@media screen and (max-width:565px) {
+  .wrapper {
+    width: max-content;
+  }
+  .vapo {
+      width: fit-content;
+      display: flex;
+      justify-content: center;
+  }
+}
+@media screen and (max-width:565px) {
+.links_pe{
+  display: flex;
+  flex-direction: column;
+  width: 10%;
+}
+.link_pe{
+  margin: 0 auto;
+}
+}
